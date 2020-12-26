@@ -1,0 +1,11 @@
+video path,./data/input.mp4
+background video path,./data/background.bmp
+threshold,80
+head orientation,1
+resolution,720x480
+frame rate,30.0
+coef margin left,0.3
+coef margin right,0.3
+coef margin top/bottom,0.3
+gamma,0.55
+delta,0.5
