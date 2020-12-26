@@ -1,7 +1,7 @@
 # Infant-movements-analysis
 I implemented feature extraction defined by Tsuji et al. [1].
 
-I used paper [1] and C++ program created by authors as a reference.
+I used paper [1] and original C++ program created by authors as a reference.
 
 # Environments of my implementation
 - OS: Windows 10
