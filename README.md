@@ -23,7 +23,7 @@ I used paper [1] and original C++ program created by authors as a reference.
   - G^v_x and G^v_y are the velocity of COG.
   - G^d_x and G^d_y are the fluctuation of COG.
 - movement_change.csv is the changes in body movement at each time
-- setting.csv is settring parameters of analysis
+- setting.csv is setting parameters of analysis
 
 # Etc
 - The processing of the paper [1] and the program do not exactly match because the processing of the paper [1] and the C++ program do not exactly match.
