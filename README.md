@@ -11,7 +11,7 @@ I used paper [1] and original C++ program created by authors as a reference.
 
 # How to use
 1. Put the measured video and background image to the "data" folder
-2. Open main.py, Specify path of the measured video and background image to filenameMovie and filenameBackImage that are args of function "feature_extraction".
+2. Open main.py, specify path of the measured video and background image to filenameMovie and filenameBackImage that are args of function "feature_extraction".
 3. Implement main.py.
 4. Results are saved to the "results" folder that named implemantation time.
 
@@ -29,4 +29,4 @@ I used paper [1] and original C++ program created by authors as a reference.
 - The processing of the paper [1] and the program do not exactly match because the processing of the paper [1] and the C++ program do not exactly match.
 
 # Reference
-- [1] [Markerless Measurement and evaluation of General Movements in infants](https://doi.org/10.1038/s41598-020-57580-z)
+[1] [Markerless Measurement and evaluation of General Movements in infants](https://doi.org/10.1038/s41598-020-57580-z)
