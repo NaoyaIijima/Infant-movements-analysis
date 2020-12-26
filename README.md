@@ -5,7 +5,7 @@ I used paper [1] and original C++ program created by authors as a reference.
 
 # Environments of my implementation
 - OS: Windows 10
-- Python: Anaconda 3 (python version: 3.8.3)
+- Python: Anaconda 3 (Python version: 3.8.3)
 - OpenCV: 4.0.1
   - if your envirment doesn't have OpenCV, please install it by command "conda install opencv".
 
