@@ -1,6 +1,7 @@
 # Infant-movements-analysis
-I implemented feature extraction defined by Tsuji et al.[1].
-I used paper[1] and C++ program created by authors as a reference.
+I implemented feature extraction defined by Tsuji et al. [1].
+
+I used paper [1] and C++ program created by authors as a reference.
 
 # Environments of my implementation
 - OS: Windows 10
@@ -25,7 +26,7 @@ I used paper[1] and C++ program created by authors as a reference.
 - setting.csv: settring parameters of analysis
 
 # Etc
-- The processing of the paper[1] and the program do not exactly match because the processing of the paper[1] and the C++ program do not exactly match.
+- The processing of the paper [1] and the program do not exactly match because the processing of the paper [1] and the C++ program do not exactly match.
 
 # Reference
 - [1] [Markerless Measurement and evaluation of General Movements in infants](https://doi.org/10.1038/s41598-020-57580-z)
