@@ -10,20 +10,20 @@ I used paper [1] and original C++ program created by authors as a reference.
   - if your envirment doesn't have OpenCV, please install it by command "conda install opencv".
 
 # How to use
-1. 計測動画と背景画像をdataフォルダに入れる
-2. main.pyを開いて，計測動画と背景画像のパスを関数feature_extractionのfilenameMoveiとfilenameBackImageに指定する
-3. main.pyの実行
-4. 結果はresultsフォルダに実行時刻が名前のフォルダに保存される
+1. Put the measured video and background image to the "data" folder
+2. Open main.py, Specify path of the measured video and background image to filenameMovie and filenameBackImage that are args of function "feature_extraction".
+3. Implement main.py.
+4. Results are saved to the "results" folder that named implemantation time.
 
 # Outputs
-- body_change.csv: the changes in body posture at each time
+- body_change.csv is the changes in body posture at each time
   - A1-A9 is analysis area defined as [1]
-- COG_features.csv: COG features at each time
+- COG_features.csv is COG features at each time
   - G_x and G_y are coordinates of COG.
   - G^v_x and G^v_y are the velocity of COG.
   - G^d_x and G^d_y are the fluctuation of COG.
-- movement_change.csv: the changes in body movement at each time
-- setting.csv: settring parameters of analysis
+- movement_change.csv is the changes in body movement at each time
+- setting.csv is settring parameters of analysis
 
 # Etc
 - The processing of the paper [1] and the program do not exactly match because the processing of the paper [1] and the C++ program do not exactly match.
