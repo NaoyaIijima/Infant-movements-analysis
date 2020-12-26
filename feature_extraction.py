@@ -17,7 +17,7 @@ def feature_extraction(
 
     Arguments:
         filenameMovie {str} -- path of input video
-        filenameBackMovie {str} -- path of background image
+        filenameBackImage {str} -- path of background image
 
     Keyword Arguments:
         head_orientation {int} -- head orientation in image (default: {0})

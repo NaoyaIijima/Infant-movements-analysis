@@ -88,24 +88,24 @@ def diff_threshold_process(img1, img2, thresh):
     return img
 
 
-def diff_threshold_process_(img1, img2, thresh):
-    """img1とimg2の差分画像から閾値を用いて2値化画像を作成する関数
-    グレースケールに変換してから差分画像を計算してます
+# def diff_threshold_process_(img1, img2, thresh):
+#     """img1とimg2の差分画像から閾値を用いて2値化画像を作成する関数
+#     グレースケールに変換してから差分画像を計算してます
 
-    Arguments:
-        img1 {numpy.float32} -- 入力画像1
-        img2 {numpy.float32} -- 入力画像2
-        thresh {int} -- 2値化の閾値
+#     Arguments:
+#         img1 {numpy.float32} -- 入力画像1
+#         img2 {numpy.float32} -- 入力画像2
+#         thresh {int} -- 2値化の閾値
 
-    Returns:
-        numpy.float32 -- 2値画像
-    """
-    img1_gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
-    img2_gray = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
-    img = cv2.absdiff(img1_gray, img2_gray)
-    _, img = cv2.threshold(img, thresh, 255, cv2.THRESH_BINARY)
+#     Returns:
+#         numpy.float32 -- 2値画像
+#     """
+#     img1_gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+#     img2_gray = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
+#     img = cv2.absdiff(img1_gray, img2_gray)
+#     _, img = cv2.threshold(img, thresh, 255, cv2.THRESH_BINARY)
 
-    return img
+#     return img
 
 
 # # NOTE: 不要
