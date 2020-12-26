@@ -7,7 +7,7 @@ I used paper [1] and C++ program created by authors as a reference.
 - OS: Windows 10
 - Python: Anaconda 3 (python version: 3.8.3)
 - OpenCV: 4.0.1
-  - if your envirment doesn't have OpenCV, please install by command "conda install opencv".
+  - if your envirment doesn't have OpenCV, please install it by command "conda install opencv".
 
 # How to use
 1. 計測動画と背景画像をdataフォルダに入れる
