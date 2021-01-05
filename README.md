@@ -1,4 +1,4 @@
-# Infant-movements-analysis
+# Infant Movements Analysis
 I implemented feature extraction defined by Tsuji et al. [1].
 
 I used paper [1] and original program (C++) created by authors as a reference.
