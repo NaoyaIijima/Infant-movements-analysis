@@ -1,0 +1,11 @@
+path of input video,./data/test.mp4
+path of background image,./data/back_test.bmp
+threshold,20
+head orientation,0
+resolution,720x480
+frame rate,30.0
+coef of margin left,0.3
+coef of margin right,0.3
+coef of margin top/bottom,0.3
+gamma,0.55
+delta,0.5
