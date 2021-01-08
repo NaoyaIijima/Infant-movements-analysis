@@ -11,16 +11,16 @@ savepath = savepath.replace(":", "-")
 os.mkdir(savepath)
 
 # 0: left, 1: right, 2: above, 3: below
-head_orientation = 1
+head_orientation = 0
 
 # threshold for binalization
-thresh = 80
+thresh = 20
 
 ext.feature_extraction(
-    filenameMovie="./data/input.mp4",
-    filenameBackImage="./data/background.bmp",
+    filenameMovie="./data/test.mp4",
+    filenameBackImage="./data/back_test.bmp",
     head_orientation=head_orientation,
     threshold=thresh,
-    isDispMovie=False,
+    isDispMovie=True,
     savepath=savepath,
 )
