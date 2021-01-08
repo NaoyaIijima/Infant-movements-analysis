@@ -1,3 +1,4 @@
-*.mp4
 *.avi
+/data/input.mp4
+/data/background.bmp
 /__pycache__/
