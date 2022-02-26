@@ -27,6 +27,7 @@ I used paper [1] and original program (C++) created by authors as a reference.
 
 # Etc
 - The processing of the paper [1] and the program do not exactly match because the processing of the paper [1] and the original program do not exactly match.
+  - 日本語：Ref.[1]の計算手順と本プログラムの計算手順は一致していません．私はRef.[1]の解析で使用されていたC++プログラムを参考に本プログラムを作りましたが，そもそもRef.[1]の計算手順とこのC++プログラムの計算手順が一致していなかったからです．ご注意ください．
 
 # Reference
 [1] [Markerless Measurement and evaluation of General Movements in infants](https://doi.org/10.1038/s41598-020-57580-z)
